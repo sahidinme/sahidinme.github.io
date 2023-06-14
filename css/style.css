@@ -1,0 +1,423 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+@font-face {
+	font-family: montserrat-light;
+	src:url('../fonts/Montserrat-Light_0.ttf');
+}
+
+@font-face {
+	font-family: montserrat-regular;
+	src:url('../fonts/Montserrat-Regular_0.ttf');
+}
+
+@font-face {
+	font-family: montserrat-medium;
+	src:url('../fonts/Montserrat-Medium_0.ttf');
+}
+
+@font-face {
+	font-family: montserrat-semiB;
+	src:url('../fonts/Montserrat-SemiBold_0.ttf');
+}
+
+.container{
+	width: 100%;
+}
+
+.kiri{
+	width: 50%;
+	height: 100vh;
+	background-image: url(../img/IMG_6040.JPG);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: -300px 0px;
+	float: left;
+	position: fixed;
+
+}
+
+.kiri h1{
+	font-family: montserrat-semiB;
+	margin-top: 350px;
+	color: white;
+	text-align: center;
+}
+
+.kiri p{
+	font-family: montserrat-light;
+	color: white;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.backdrop {
+	position: absolute;
+/*    background-color: rgba(127, 190, 224, 0.6);*/
+background: linear-gradient(to top, rgb(211, 103, 230), rgba(0, 0, 0, 0));
+	width:100%;
+	height: 100%;
+	z-index: 1;
+}
+
+.kanan{
+	width: 50%;
+	height: 100%;
+	background-color: #efe8e8;
+	float: right;
+}
+
+/* satu */
+.satu{
+	background-color: #fff;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.isi_satu{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_satu h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+}
+
+.isi_satu p{
+	color: black;
+	font-family: montserrat-light;
+}
+
+/* end satu */
+
+/*dua*/
+.dua{
+	background-color: #f9f9f9;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.isi_dua{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_dua h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+
+table {
+    border-collapse: collapse;
+    font-family: montserrat-light;
+    width: 100%;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+th {
+    background-color: grey;
+    color: white;
+}
+
+/*end dua*/
+
+/*tiga*/
+.tiga{
+	background-color: #fff;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.isi_tiga{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_tiga h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+
+/*end tiga*/
+
+/*empat*/
+.empat{
+	background-color: #f9f9f9;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.isi_empat{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_empat h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+
+.isi_empat p{
+	color: grey;
+	font-family: montserrat-light;
+}
+
+.isi_empat h2{
+	color: black;
+	font-family: montserrat-semiB;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.isi_empat h3{
+	color: grey;
+	font-family: montserrat-light;
+	font-size: 16px;
+}
+
+/*end empat*/
+
+
+/*lima*/
+
+.lima{
+	background-color: #fff;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.isi_lima{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_lima h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+
+.isi_lima p{
+	color: grey;
+	font-family: montserrat-light;
+}
+
+.isi_lima h2{
+	color: black;
+	font-family: montserrat-semiB;
+	padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.isi_lima h3{
+	color: grey;
+	font-family: montserrat-light;
+	font-size: 16px;
+}
+
+/*end lima*/
+
+/*enam*/
+
+.enam{
+	background-color: #f9f9f9;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.isi_enam{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_enam h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+
+.isi_enam p{
+	color: black;
+    font-family: montserrat-light;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.isi_enam h3{
+	color: black;
+    font-family: montserrat-light;
+    font-size: 16px;
+}
+
+/*end enam*/
+
+/*tujuh*/
+
+.tujuh{
+	background-color: #fff;
+	height: 500px;
+	padding-top: 3em;
+	padding-bottom: 35em;
+}
+
+.isi_tujuh{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_tujuh h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+
+.konten{
+	width: 44%;
+	height: 250px;
+	background-color: grey;
+	float: left;
+	margin: 1em;
+	
+}
+
+.isisatu{
+	background-image: url(../img/kurawal.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.isidua{
+	background-image: url(../img/kurung.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 0px 0px;
+}
+
+.judul{
+	margin-top: 210px;
+    margin-left: 20px;
+}
+
+.judul a{
+	color: white;
+	font-family: montserrat-regular;
+	text-decoration: none;
+}
+
+.judul h2{
+	color: white;
+	font-family: montserrat-regular;
+	font-size: 18px;
+}
+
+.kontenvideo{
+	width: 93.5%;
+	height: 315px;
+	background-color: grey;
+	float: left;
+	margin: 1em;
+	background-image: url();
+	background-size: cover;
+}
+
+/*end tujuh*/
+
+/*delapan*/
+
+.delapan{
+	background-color: #f9f9f9;
+	padding-top: 3em;
+	padding-bottom: 3em;
+}
+
+.isi_delapan{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_delapan h1{
+	color: grey;
+	font-family: montserrat-regular;
+	font-size: 25px; 
+	margin-bottom: 20px;
+}
+
+.isi_delapan p{
+	color: black;
+    font-family: montserrat-light;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.isi_delapan h3{
+	color: black;
+    font-family: montserrat-light;
+    font-size: 16px;
+}
+
+/*end delapan*/
+
+/*footer*/
+
+.footer{
+	background-color: #fff;
+	height: 0px;
+	padding-top: 2em;
+	padding-bottom: 3em;
+}
+
+.isi_footer{
+	width: 90%;
+	height: 100%;
+	margin-left:2em;
+	margin-right: 2em;
+}
+
+.isi_footer p{
+	text-align: center;
+	color: black;
+	font-size: 15px;
+    font-family: montserrat-light;
+}
+
+/*end footer*/
+
+
+
+
